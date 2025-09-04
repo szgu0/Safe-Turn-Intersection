@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa9ee1d52d3d94984baf9cf2248404ab, type: 3}
+  m_Name: sdL1-Trivia
+  m_EditorClassIdentifier: 
+  Title: "\u6E2C\u9A57\u984C\u76EE"
+  Content: "\u8ACB\u554F\u4EE5\u4E0B\u7684\u63CF\u8FF0\u54EA\u4E00\u500B\u662F\u6B63\u78BA\u7684\u5462?"
+  QuestionClip: {fileID: 0}
+  AddChoicePrefix: 1
+  Choices:
+  - Content: "\u9019\u500B\u63CF\u8FF0\u662F\u932F\u7684\u3002"
+    IsCorrect: 0
+  - Content: "\u9019\u500B\u63CF\u8FF0\u662F\u932F\u7684\u3002"
+    IsCorrect: 0
+  - Content: "\u9019\u500B\u63CF\u8FF0\u662F\u5C0D\u7684\u3002"
+    IsCorrect: 1
+  - Content: "\u9019\u500B\u63CF\u8FF0\u662F\u932F\u7684"
+    IsCorrect: 0
+  UseObjectSelection: 0
+  ObjectSelectionName: 
+  RechooseUntilCorrect: 0
+  CorrectTitle: "\u7B54\u5C0D\u56C9!"
+  CorrectDiscription: "\u7B54\u5C0D\u56C9\uFF01\u771F\u68D2\uFF01\n\u9019\u500B\u63CF\u8FF0\u662F\u5C0D\u7684\u3002"
+  CorrectClip: {fileID: 0}
+  CorrectPlayExplain: 0
+  IncorrectTitle: "\u7B54\u932F\u56C9!"
+  IncorrectDiscription: "\u7B54\u932F\u4E86\uFF0C\u7B54\u6848\u61C9\u8A72\u662F(C)\u3002\n\nA.\u9019\u500B\u63CF\u8FF0\u662F\u932F\u7684\u3002\nB.\u9019\u500B\u63CF\u8FF0\u662F\u932F\u7684\u3002\nD.\u9019\u500B\u63CF\u8FF0\u662F\u932F\u7684\u3002"
+  IncorrectClip: {fileID: 0}
+  DetailExplain: {fileID: 0}

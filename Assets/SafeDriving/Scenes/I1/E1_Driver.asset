@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83130f7613d2f4645ad773ce6e359f6b, type: 3}
+  m_Name: E1_Driver
+  m_EditorClassIdentifier: 
+  TextSets:
+  - ID: introduction
+    PCText: "\u53EF\u4F7F\u7528\u64CD\u4F5C\u9762\u677F\uFF0C\u5207\u63DB\u4E0D\u540C\u8996\u89D2\uFF0C\u6216\u958B\u59CB\u6A21\u64EC\u3002"
+    PCClip: {fileID: 0}
+    VRText: 
+    VRClip: {fileID: 8300000, guid: a3fcbc2d1f7e3c5448105a285b5db1d7, type: 3}
+  - ID: concept-explain
+    PCText: 
+    PCClip: {fileID: 0}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: step-5
+    PCText: "\u53EF\u4F7F\u7528\u64CD\u4F5C\u9762\u677F\uFF0C\u5207\u63DB\u4E0D\u540C\u8996\u89D2\uFF0C\u6216\u958B\u59CB\u6A21\u64EC\u3002"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 8300000, guid: cfda17e3c0354f94dacc51d85ff7655a, type: 3}
+  - ID: step-6
+    PCText: '
+
+'
+    PCClip: {fileID: 0}
+    VRText: 
+    VRClip: {fileID: 8300000, guid: 021c4c1c801965d41b240cfd76e1bea4, type: 3}
+  - ID: step-7
+    PCText: "\u6A21\u64EC\u7D50\u675F\uFF0C\u8ACB\u78BA\u8A8D\u8A08\u7B97\u53CA\u6A21\u64EC\u7D50\u679C\u662F\u5426\u6B63\u78BA\u3002"
+    PCClip: {fileID: 8300000, guid: 5ec2b3db38cfb4aecbfd9640e2d36df0, type: 3}
+    VRText: 
+    VRClip: {fileID: 8300000, guid: e9be8b6a8f7596d4d904a76263c19f6d, type: 3}
+  - ID: step-8
+    PCText: "\u53EF\u91CD\u65B0\u6A21\u64EC\uFF0C\u6216\u7D50\u675F\u672C\u6B21\u5B78\u7FD2\r\u3002"
+    PCClip: {fileID: 0}
+    VRText: 
+    VRClip: {fileID: 8300000, guid: 00b27ea2cf01ae9449f43baf63318277, type: 3}
+  - ID: B_1
+    PCText: "\u91CD\u65B0\u6A21\u64EC"
+    PCClip: {fileID: 0}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: B_2
+    PCText: "\u5B78\u7FD2\u7D50\u675F"
+    PCClip: {fileID: 0}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: B_3
+    PCText: "\u5207\u63DB\u8996\u89D2"
+    PCClip: {fileID: 0}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: B_4
+    PCText: "\u958B\u59CB"
+    PCClip: {fileID: 8300000, guid: f328bf8a15afc441ba8f43573353370a, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: step-5-hint
+    PCText: "\u8ACB\u9EDE\u9078\u958B\u59CB\u6A21\u64EC\r\u3002"
+    PCClip: {fileID: 8300000, guid: 54a0ac768bacf4981b8824e750f32381, type: 3}
+    VRText: 
+    VRClip: {fileID: 8300000, guid: a47b56630488e9f4b999f57c0ee9dc24, type: 3}
+  - ID: step-6-hint
+    PCText: 
+    PCClip: {fileID: 8300000, guid: c25fa78d515194485a5e9cd0fe82b259, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: step-7-hint
+    PCText: "\u8ACB\u9EDE\u9078\u4E0B\u4E00\u6B65\u6309\u9215\_\r\n"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 8300000, guid: a8727e051413e5945ad828c4e2a7514d, type: 3}
+  - ID: step-8-hint
+    PCText: "\u8ACB\u9EDE\u9078\u91CD\u65B0\u6A21\u64EC\u6216\u5B78\u7FD2\u7D50\u675F\r"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 8300000, guid: ca46a8d33053a2244bbe3130f043c701, type: 3}
+  - ID: view-1
+    PCText: "\u81EA\u7531\u64CD\u4F5C"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: view-2
+    PCText: "\u6A21\u64EC\u64CD\u4F5C-\u99D5\u99DB\u8005\u8996\u89D2"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: view-3
+    PCText: "\u6A21\u64EC\u64CD\u4F5C-\u4FEF\u77B0\u8996\u89D2"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: view-4
+    PCText: "\u6A21\u64EC\u64CD\u4F5C-\u8DDF\u96A8\u8996\u89D2"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: view-5
+    PCText: "\u99D5\u99DB\u6E96\u5099\u5BA4"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}

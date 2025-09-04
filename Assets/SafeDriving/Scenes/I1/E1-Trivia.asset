@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa9ee1d52d3d94984baf9cf2248404ab, type: 3}
+  m_Name: E1-Trivia
+  m_EditorClassIdentifier: 
+  Title: "\u6E2C\u9A57\u984C\u76EE"
+  Content: "\u8CEA\u9EDE\u505A\u5713\u5468\u904B\u52D5\uFF0C\u82E5\u5411\u5FC3\u52A0\u901F\u5EA6\u70BA
+    40 m\uFF0Fs2\uFF0C\u4E14\u65CB\u8F49\u534A\u5F91\u70BA 20 m\uFF0C\u5247\uFF1A
+    \u8CEA\u9EDE\u65CB\u8F49\u7684\u89D2\u901F\u5EA6\u70BA\u591A\u5C11rad\uFF0Fs\u5462?\n\u8ACB\u554F\u4EE5\u4E0B\u7684\u63CF\u8FF0\u54EA\u4E00\u500B\u662F\u6B63\u78BA\u7684\u5462?"
+  QuestionClip: {fileID: 8300000, guid: 23b5008b4d26f9040b84bbf200def74c, type: 3}
+  AddChoicePrefix: 1
+  Choices:
+  - Content: "\u221A2"
+    IsCorrect: 1
+  - Content: 2
+    IsCorrect: 0
+  - Content: 4
+    IsCorrect: 0
+  - Content: "20\u221A2"
+    IsCorrect: 0
+  UseObjectSelection: 0
+  ObjectSelectionName: 
+  RechooseUntilCorrect: 0
+  CorrectTitle: "\u7B54\u5C0D\u56C9!"
+  CorrectDiscription: "\u7B54\u5C0D\u56C9\uFF01\u771F\u68D2\uFF01\n\u9019\u500B\u63CF\u8FF0\u662F\u5C0D\u7684\u3002"
+  CorrectClip: {fileID: 8300000, guid: 064409b50369df04eb5b96211812281b, type: 3}
+  CorrectPlayExplain: 0
+  IncorrectTitle: "\u7B54\u932F\u56C9!"
+  IncorrectDiscription: "\u7B54\u932F\u4E86"
+  IncorrectClip: {fileID: 8300000, guid: 4a8da6fed880c31498394b8f6d34df77, type: 3}
+  DetailExplain: {fileID: 0}

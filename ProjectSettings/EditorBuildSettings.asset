@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/Lobby.unity
+    guid: 1f675acbaa67a1741a9a80b33ad2d6f7
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/L1.unity
+    guid: 4cbe31d8961db5d4798abca438e02adf
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/L2.unity
+    guid: 9a282cec703fd764490fc6dffc6b5239
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/L3.unity
+    guid: 3238e8b14a1be3e429f4b57f7282a65a
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/L4.unity
+    guid: c4d9fb7d11d89b948aed5ffc799caf6e
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/L5.unity
+    guid: 471e08e56a2a2e040b506b3f65047b01
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/L6.unity
+    guid: 2e830019e4a160047874ebc4e42c1c46
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E1.unity
+    guid: 78ff63d82cfae0c42a52be6fdc3a4dbb
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E1_Driver_Car.unity
+    guid: 6fe1d24586e2cc143acf36df6a02a162
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E1_End.unity
+    guid: b3c8283d2ae0bd44c8fa54f26619a070
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E2_Driver_Car.unity
+    guid: e840a07e54d2d6b418770bc658201abe
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E2.unity
+    guid: fa4f4f068ff27bc4ba81914cc93566cd
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E2_End.unity
+    guid: 2109c504afc00d742834a728ee32dff0
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E3_Driver_Car.unity
+    guid: 83ecad810e74e484db59702bbb397323
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E3.unity
+    guid: abcdcdeb087003b4daca1ca78480adc5
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E3_End.unity
+    guid: 262b63d22e0f80440b1d73151bf33012
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E4_Driver_Car.unity
+    guid: c6f20d58710ebe748b25e60d3e035505
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E4.unity
+    guid: 55aafa2a497af2e4094fc25c18a0115c
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E4_End.unity
+    guid: 116c80b62549f71429d4ea8a66ed41ad
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E5_Driver_Car.unity
+    guid: 72d5de8b3e96e419e97cf3d1943afc0d
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E5.unity
+    guid: e95b09e5c2c0f4e438ca19a9f3b73308
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E5_End.unity
+    guid: c0eb3d7c4797840cca472536451621f8
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E6_Driver_Car.unity
+    guid: 744b0833ca2308e44bdf3609fdd97510
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E6.unity
+    guid: f132282797b743b40bd20b2f821da8da
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E6_End.unity
+    guid: bdbe55b858bb600408abe76e75779037
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E7.unity
+    guid: 1c16db0dbb6105c43ab4996db4e0528e
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E7_Driver_Car.unity
+    guid: 9de415d8f78f6ff408d34c195bbe2f59
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/I7/E7_End.unity
+    guid: 2c15709fcf6c4e14996b4774155d5a27
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E8.unity
+    guid: 76af6cd98d6b6634c94ef08399fe1f1f
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E8_Driver_Car.unity
+    guid: 3b068f1b19c85db4f8091ef40d976723
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/E8_End.unity
+    guid: b282ad1442a20ff4d80e09898758d631
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/L0-VR.unity
+    guid: 6e035a785a894584599abe623ab5e902
+  - enabled: 1
+    path: Assets/SafeDriving/Scenes/L0-PC.unity
+    guid: 26fc1f1aacad1044aa50a8321422e16b
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: eee48529f25cd204ab576f2bd0e3ddf9,
+      type: 2}
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 9cd6f1a33c042584eb4bda2bf1f2da8b,
+      type: 2}
+    com.htc.upm.wave.xrsdk.xrsettings: {fileID: 11400000, guid: f1a8f692cdb161943a592d6787e5ae83,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f276f7554bc1b344b89d545e2b4d9a74,
+      type: 2}

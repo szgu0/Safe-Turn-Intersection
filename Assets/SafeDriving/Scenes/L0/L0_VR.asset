@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83130f7613d2f4645ad773ce6e359f6b, type: 3}
+  m_Name: L0_VR
+  m_EditorClassIdentifier: 
+  TextSets:
+  - ID: introduction
+    PCText: "\u65B0\u624B\u6559\u5B78"
+    PCClip: {fileID: 0}
+    VRText: "\u65B0\u624B\u6559\u5B78"
+    VRClip: {fileID: 0}
+  - ID: concept-explain
+    PCText: "\u6B61\u8FCE\u4F86\u5230\u300C\u5B89\u5168\u904E\u5F4E\u7684\u884C\u8ECA\u6280\u5DE7\u300D\u9019\u88E1\u662F
+      PC \u4E92\u52D5\u6559\u5B78\u6559\u5BA4\u7684\u65B0\u624B\u6559\u5B78\uFF0C\u5728\u9019\u88E1\u53EF\u4EE5\u5B78\u7FD2\u64CD\u4F5C\u65B9\u5F0F\u3002"
+    PCClip: {fileID: 8300000, guid: 128e28150be9770478afe1e9a7ae428a, type: 3}
+    VRText: "\u6B61\u8FCE\u4F86\u5230\u300C\u5B89\u5168\u904E\u5F4E\u7684\u884C\u8ECA\u6280\u5DE7\u300D\u9019\u88E1\u662F
+      VR \u65B0\u624B\u6559\u5B78\u7A7A\u9593\uFF0C\u5728\u9019\u88E1\u53EF\u4EE5\u5B78\u7FD2\u672C\u6559\u6750\u6240\u9700\u8981\u7684\u64CD\u4F5C\u65B9\u5F0F\u3002"
+    VRClip: {fileID: 8300000, guid: dde49e19fb9c334438fbc94fc851782a, type: 3}
+  - ID: concept-explain-2
+    PCText: "\u8ACB\u89C0\u770B\u524D\u65B9\u87A2\u5E55\u7684\u8AAA\u660E\u6B65\u9A5F\u9032\u884C\u65B0\u624B\u6559\u5B78"
+    PCClip: {fileID: 8300000, guid: 1aa4ce267afee9a4b8cf8311019cb88a, type: 3}
+    VRText: "\u8ACB\u89C0\u770B\u524D\u65B9\u87A2\u5E55\u7684\u8AAA\u660E\u6B65\u9A5F\u9032\u884C\u65B0\u624B\u6559\u5B78"
+    VRClip: {fileID: 8300000, guid: e68a4a757d804964cbb42c52415e0345, type: 3}
+  - ID: step-1
+    PCText: "\u9996\u5148\uFF0C\u6211\u5011\u5148\u4F86\u5B78\u7FD2\u6559\u6750\u7684\u64CD\u4F5C\u3002\u8ACB\u4F7F\u7528\u6ED1\u9F20\uFF0C\u5229\u7528\u6E38\u6A19\u9EDE\u9078\u6B63\u524D\u65B9\u87A2\u5E55\u53F3\u4E0B\u89D2\u7684\u300C\u4E0B\u4E00\u6B65\u300D\u3002"
+    PCClip: {fileID: 8300000, guid: b3b64442aac50b1488c139db6f8b2711, type: 3}
+    VRText: "\u9996\u5148\uFF0C\u6211\u5011\u5148\u4F86\u5B78\u7FD2\u624B\u628A\u7684\u64CD\u4F5C\u3002\u8ACB\u5148\u8209\u8D77\u53F3\u624B\u628A\uFF0C\u5C07\u5C04\u7DDA\u6307\u5411\u9762\u677F\u53F3\u4E0B\u65B9\u7684\u300C\u4E0B\u4E00\u6B65\u300D\uFF0C\u4E26\u7528\u98DF\u6307\u6263\u4E00\u4E0B\u6273\u6A5F\u3002"
+    VRClip: {fileID: 8300000, guid: a8fbeaddf779e5647910c9308573512e, type: 3}
+  - ID: step-2
+    PCText: "\u771F\u68D2\uFF01\u524D\u65B9\u9762\u677F\u6703\u6709\u5B78\u7FD2\u6B65\u9A5F\u7684\u63D0\u793A\uFF0C\u6BCF\u6B21\u64CD\u4F5C\u8ACB\u96A8\u6642\u7559\u610F\uFF01"
+    PCClip: {fileID: 8300000, guid: ec2b698d08efebc42a12721286d1151a, type: 3}
+    VRText: "\u771F\u68D2\uFF01\u6BCF\u4E00\u6B21\u770B\u5230\u300C\u4E0B\u4E00\u6B65\u300D\u90FD\u8981\u7528\u53F3\u624B\u628A\u9EDE\u9078\u5594\uFF01"
+    VRClip: {fileID: 8300000, guid: 33c49ffaecbc5c74797ef64b2ce2a9b5, type: 3}
+  - ID: step-3
+    PCText: "\u8ACB\u7528\u6ED1\u9F20\u5DE6\u9375\u9EDE\u9078\u9762\u677F\u4E0A\u5713\u5F62\u7684\u5716\u6848\uFF0C\u4E14\u4E0D\u8981\u653E\u958B\u4E26\u5411\u5DE6\u53F3\u62D6\u66F3\u79FB\u52D5\uFF0C\u9019\u6A23\u5C31\u53EF\u4EE5\u8ABF\u6574\u884C\u8ECA\u53C3\u6578\u3002"
+    PCClip: {fileID: 8300000, guid: adc6405f75b0f854886d21abc09f877a, type: 3}
+    VRText: "\u8ACB\u7528\u53F3\u624B\u628A\u9EDE\u9078\u9762\u677F\u4E0A\u5713\u5F62\u7684\u5716\u6848\uFF0C\u4E14\u4E0D\u8981\u653E\u958B\u4E26\u5411\u5DE6\u53F3\u62D6\u66F3\u79FB\u52D5\uFF0C\u9019\u6A23\u5C31\u53EF\u4EE5\u8ABF\u6574\u884C\u8ECA\u53C3\u6578\u3002"
+    VRClip: {fileID: 8300000, guid: 4c2a5d92fc218c14193b8bb05ddbd2e0, type: 3}
+  - ID: step-4
+    PCText: "\u771F\u68D2\uFF01\u64CD\u4F5C\u9762\u677F\u4E0A\u7684\u53C3\u6578\u90FD\u50CF\u9019\u6A23\u8ABF\u6574\u5594\uFF01"
+    PCClip: {fileID: 8300000, guid: 4758316cd2dd0074f939fbd42e8cfbec, type: 3}
+    VRText: "\u771F\u68D2\uFF01\u64CD\u4F5C\u9762\u677F\u4E0A\u7684\u53C3\u6578\u90FD\u50CF\u9019\u6A23\u8ABF\u6574\u5594\uFF01"
+    VRClip: {fileID: 8300000, guid: 18e9022927e77704c862bfb2760f44b2, type: 3}
+  - ID: step-5
+    PCText: "\u63A5\u4E0B\u4F86\uFF01\u8ACB\u6309\u4E0B\u9375\u76E4\u7684 ESC \u9375\uFF0C\u6216\u756B\u9762\u5DE6\u4E0A\u89D2\u7684\u6309\u9215\uFF0C\u53EB\u51FA\u9078\u55AE\u3002"
+    PCClip: {fileID: 8300000, guid: 94bf55a6b54812f4f8030f236934770d, type: 3}
+    VRText: "\u6211\u5011\u73FE\u5728\u4F86\u8A66\u8A66\u770B\u9078\u55AE\u9375\u5427\uFF01\u8ACB\u6309\u4E0B\u53F3\u624B\u628A\u7684
+      B\u9375\u53EB\u51FA\u9078\u55AE\u3002"
+    VRClip: {fileID: 8300000, guid: b3de39ff05188b8468bebb506580c215, type: 3}
+  - ID: step-6
+    PCText: "\u518D\u6309\u4E00\u6B21\u9375\u76E4\u7684 ESC \u9375\uFF0C\u6216\u756B\u9762\u5DE6\u4E0A\u89D2\u7684\u6309\u9215\uFF0C\u6536\u56DE\u9078\u55AE\u3002"
+    PCClip: {fileID: 8300000, guid: a2595ad7e0b55c74c8705db42fdea01d, type: 3}
+    VRText: "\u518D\u6309\u4E00\u4E0B\u53F3\u624B\u628A\u7684 B \u9375\u6536\u56DE\u9078\u55AE\u3002"
+    VRClip: {fileID: 8300000, guid: a08108cbc1346ec47b11e19960e53693, type: 3}
+  - ID: step-7
+    PCText: "\u606D\u559C\uFF0C\u65B0\u624B\u6559\u5B78\u5C31\u7D50\u675F\u56C9\uFF01\u4F60\u53EF\u4EE5\u6309\u4E0B\u9078\u55AE\u9375\u524D\u5F80\u5176\u4ED6\u6559\u5B78\u55AE\u5143\u3002"
+    PCClip: {fileID: 8300000, guid: 4cee473b3e466d14595ef7dbbe5ebfd9, type: 3}
+    VRText: "\u9019\u6A23\u65B0\u624B\u6559\u5B78\u5C31\u7D50\u675F\u56C9\uFF01\u4F60\u53EF\u4EE5\u6309\u4E0B\u9078\u55AE\u9375(\u6216\u6309\u4E0B\u53F3\u624B\u628A\u7684
+      B \u9375)\u524D\u5F80\u5176\u4ED6\u6559\u5B78\u55AE\u5143\u3002"
+    VRClip: {fileID: 8300000, guid: 0c1c5645db77e5e4f88c1e818ef7c242, type: 3}
+  - ID: step-8
+    PCText: 
+    PCClip: {fileID: 8300000, guid: 9427e4e8e217d4140aa358c76129d3e9, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: step-9
+    PCText: "\u74B0\u5883\u4E2D\u7684\u6309\u9215\u6216\u7269\u4EF6\u591A\u5229\u7528\u6ED1\u9F20\u5DE6\u9375\u9032\u884C\u64CD\u4F5C\uFF01"
+    PCClip: {fileID: 8300000, guid: 9186b6a78af782e41a8a7ccdeec0eb1f, type: 3}
+    VRText: "\u74B0\u5883\u4E2D\u7684\u6309\u9215\u6216\u7269\u4EF6\u90FD\u53EF\u4EE5\u5229\u7528\u53F3\u624B\u628A\u7684\u677F\u6A5F\u9032\u884C\u64CD\u4F5C\uFF01"
+    VRClip: {fileID: 8300000, guid: 987a70dd05d855644840b526c289c34d, type: 3}
+  - ID: step-10
+    PCText: "\u8A66\u4E00\u8A66\u6309\u4E0B\u9375\u76E4\u5DE6\u53F3\u9375\uFF0C\u6216
+      A\u3001D \u9375\uFF0C\u53EF\u4EE5\u65CB\u8F49\u8996\u89D2\u9032\u884C\u89C0\u5BDF\u3002"
+    PCClip: {fileID: 8300000, guid: cecb6c95d9c78bf43bb436e88223721a, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: step-11
+    PCText: "\u6559\u5B78\u4EFB\u52D9\u5B8C\u6210\u56C9\uFF01\u73FE\u5728\uFF0C\u4F60\u53EF\u4EE5\u6309\u4E0B\u9078\u55AE\u6309\u9215\uFF0C\u9078\u64C7\u518D\u8A66\u4E00\u6B21\u3001\u81EA\u7531\u64CD\u4F5C\uFF0C\u6216\u662F\u524D\u5F80\u5176\u4ED6\u55AE\u5143\u5594\uFF01"
+    PCClip: {fileID: 0}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: step-12
+    PCText: "\u6559\u5B78\u4EFB\u52D9\u5B8C\u6210\uFF0C\u8ACB\u6309\u4E0B\u9078\u55AE\u9375\u3002"
+    PCClip: {fileID: 8300000, guid: 87563642720c94417b713ea6dd787591, type: 3}
+    VRText: 
+    VRClip: {fileID: 8300000, guid: 2eb3b0bb9887c094c8369ab2ebb0e988, type: 3}
+  - ID: step-free
+    PCText: "\u65B0\u624B\u6559\u5B78"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: "\u65B0\u624B\u6559\u5B78"
+    VRClip: {fileID: 0}
+  - ID: step-1-hint
+    PCText: "\u8ACB\u9EDE\u9078\u4E0B\u4E00\u6B65\u6309\u9215"
+    PCClip: {fileID: 8300000, guid: 1466482b71642a645971eda69c4e86a4, type: 3}
+    VRText: 
+    VRClip: {fileID: 8300000, guid: 53513ac317b60f74587f1efaaf2def7b, type: 3}
+  - ID: step-2-hint
+    PCText: "\u8ACB\u9EDE\u9078\u9078\u55AE\u6309\u9215\r\n"
+    PCClip: {fileID: 8300000, guid: 7aa9644f7dcf87b46966e060f307928b, type: 3}
+    VRText: 
+    VRClip: {fileID: 8300000, guid: bbe243eba6b77d745b5334c9f89b48ea, type: 3}
+  - ID: step-3-hint
+    PCText: "\u8ACB\u9EDE\u9078\u78BA\u8A8D\u6309\u9215"
+    PCClip: {fileID: 8300000, guid: 02375d98dcdba184eb5fdd4cc9299f7c, type: 3}
+    VRText: 
+    VRClip: {fileID: 8300000, guid: 370a3ceb4a452b540b25ab6571b63392, type: 3}
+  - ID: step-4-hint
+    PCText: "\u8ACB\u9EDE\u9078\u9078\u55AE\u6309\u9215"
+    PCClip: {fileID: 8300000, guid: a068e5a5ce1ba4a818ed1d9c21354537, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: step-5-hint
+    PCText: "\u8ACB\u9EDE\u9078\u4E0B\u4E00\u6B65\u6309\u9215"
+    PCClip: {fileID: 8300000, guid: 54a0ac768bacf4981b8824e750f32381, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: step-6-hint
+    PCText: "\u8ACB\u9EDE\u9078\u78BA\u8A8D\u6309\u9215"
+    PCClip: {fileID: 8300000, guid: c25fa78d515194485a5e9cd0fe82b259, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: step-7-hint
+    PCText: "\u8ACB\u9EDE\u9078\u78BA\u8A8D\u6309\u9215"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: step-8-hint
+    PCText: "\u8ACB\u64CD\u4F5C\u9762\u677F\u3001\u9EDE\u9078\u4E0B\u4E00\u6B65\u6309\u9215"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: step-9-hint
+    PCText: "\u8ACB\u9EDE\u9078\u4E0B\u4E00\u6B65\u6309\u9215"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: step-10-hint
+    PCText: "\u8ACB\u9EDE\u9078\u4E0B\u4E00\u6B65\u6309\u9215"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: step-11-hint
+    PCText: "\u8ACB\u9EDE\u9078\u4E0B\u4E00\u6B65\u6309\u9215"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: step-12-hint
+    PCText: "\u8ACB\u9EDE\u9078\u78BA\u8A8D\u6309\u9215"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: step-13-hint
+    PCText: "\u8ACB\u9EDE\u9078\u78BA\u8A8D\u6309\u9215"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: step-14-hint
+    PCText: "\u8ACB\u9EDE\u9078\u4E0B\u4E00\u6B65\u6309\u9215"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: step-15-hint
+    PCText: "\u8ACB\u9EDE\u9078\u78BA\u8A8D\u6309\u9215"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: step-16-hint
+    PCText: "\u8ACB\u9EDE\u9078\u78BA\u8A8D\u6309\u9215"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: step-17-hint
+    PCText: "\u8ACB\u9EDE\u9078\u300C\u9078\u55AE\u9375\u300D\u6309\u9215"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}

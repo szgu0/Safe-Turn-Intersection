@@ -1,0 +1,192 @@
+{
+    "Items": [
+        {
+            "scenename": "L2-3",
+            "content_index": 1,
+            "contenttitle": "彈性位能",
+            "contenttext": "將彈性體如橡皮筋、彈簧等透過力量將其形狀改變而儲存能量，即為彈性位能，形變量越大所具有的彈性位能越大，作功也越大。\n\n例如：透過手部對橡皮筋進行施力動作，改變橡皮筋形變，儲存能量。\n\n【說明結束，請按Menu鍵】",
+            "ImageFileName_1": "L2-3-1_O",
+            "ImageFileName_2": "L2-3-2_O",
+			"AudioFileName": "L2-3",
+            "VideoFileName_1": "",
+            "VideoFileName_2": ""
+        },
+        {
+            "scenename": "L2-4",
+            "content_index": 1,
+			"contenttitle": "功能轉換",
+            "contenttext": "功能轉換即是施力作功，能夠讓物體具有能量，而具有能量的物體也可以進行作功的動作。\n\n例如：手對購物車作功，使購物車的動能增加。舉重選手對桿鈴作功，使桿鈴的重力位能增加。\n\n【說明結束，請按Menu鍵】",
+            "ImageFileName_1": "L2-4-1_O",
+            "ImageFileName_2": "L2-4-2_O",
+			"AudioFileName": "L2-4",
+            "VideoFileName_1": "",
+            "VideoFileName_2": ""
+        },
+		{
+            "scenename": "L2-6",
+            "content_index": 1,
+			"contenttitle": "能量守恆",
+            "contenttext": "能量形式百百種，除了動能、位能，熱能、光能等等皆是能量的形式，能量在轉換的過程中皆會遵守能量守恆定律，能量不會突然消失。\n\n【說明結束，請按Menu鍵】",
+            "ImageFileName_1": "L2-6-1_O",
+            "ImageFileName_2": "L2-6-2_O",
+			"AudioFileName": "L2-6",
+            "VideoFileName_1": "",
+            "VideoFileName_2": ""
+        },
+        {
+            "scenename": "L4-1",
+            "content_index": 1,
+			"contenttitle": "槓桿",
+            "contenttext": "1.什麼是槓桿？繞著支點(固定點或轉軸)旋轉的裝置，稱為槓桿。\n\n2. 什麼是槓桿原理？在一槓桿中會存在一支點、一抗力點及一施力點，從抗力點到支點這段距離稱為抗力臂，而施力點到支點的這段距離稱為施力臂。\n\n當槓桿達到水平平衡時，兩力矩大小會相等，公式方面為施力*施力臂=抗力*抗力臂，也就是槓桿原理。",
+            "ImageFileName_1": "L4-1-1_O",
+            "ImageFileName_2": "L4-1-2_O",
+			"AudioFileName": "L4-1-1",
+            "VideoFileName_1": "",
+            "VideoFileName_2": ""
+        },
+		{
+            "scenename": "L4-1",
+            "content_index": 2,
+			"contenttitle": "槓桿",
+            "contenttext": "3.靜力平衡：一物體同時受到數個作用力，仍維持靜止，即表示所受的合力為0，合力矩為0。\n\n【說明結束，請按Menu鍵】",
+            "ImageFileName_1": "L4-1-1_O",
+            "ImageFileName_2": "L4-1-2_O",
+			"AudioFileName": "L4-1-2",
+            "VideoFileName_1": "",
+            "VideoFileName_2": ""
+        },
+        {
+            "scenename": "L4-5",
+            "content_index": 1,
+			"contenttitle": "螺旋",
+            "contenttext": "螺旋是一個透過螺紋的疏密來達到省力的簡單機械，一個螺旋可以解析為兩個部位。\n\n螺紋：螺旋上突出的紋路，若將紋路攤開後會形成一個斜面。\n\n螺距：兩螺紋之間。\n\n【說明結束，請按Menu鍵】",
+            "ImageFileName_1": "L4-5-1_O",
+            "ImageFileName_2": "L4-5-2_O",
+			"AudioFileName": "L4-5",
+            "VideoFileName_1": "",
+            "VideoFileName_2": ""
+        },
+        {
+            "scenename": "L5-1",
+            "content_index": 1,
+			"contenttitle": "能源分類",
+            "contenttext": "什麼是能源?\n\n只要是能夠提供能量的資源都稱為能源。",
+            "ImageFileName_1": "L5-1-1_O",
+            "ImageFileName_2": "L5-1-2_O",
+			"AudioFileName": "L5-1-1",
+            "VideoFileName_1": "",
+            "VideoFileName_2": ""
+        },
+		{
+            "scenename": "L5-1",
+            "content_index": 2,
+			"contenttitle": "能源分類",
+            "contenttext": "能源的形式，以是否可循環作為利基點進行定義，可分為：\n1.非再生能源：自然界中蘊藏量有限(例如：煤、石油、天然氣等)。\n2.再生能源：可循環利用，較無枯竭問題的能源(例如：太陽、風、水、潮汐、洋流等)。\n上述皆為自然形成的，若直接將能源加以處理，即可轉換為另一種形式的能源，例如：電力。\n\n【說明結束，請按Menu鍵】",
+            "ImageFileName_1": "L5-1-1_O",
+            "ImageFileName_2": "L5-1-2_O",
+			"AudioFileName": "L5-1-2",
+            "VideoFileName_1": "",
+            "VideoFileName_2": ""
+        },
+        {
+            "scenename": "L5-2",
+            "content_index": 1,
+			"contenttitle": "台灣常用能源",
+            "contenttext": "非再生能源\n\n1.化石燃料：\n化石燃料的形成來自古代生物死後，在地底經高溫高壓逐漸轉化而成，現在常見的化石燃料有煤、石油、天然氣等。\n",
+            "ImageFileName_1": "L5-2-1_O",
+            "ImageFileName_2": "L5-2-2_O",
+			"AudioFileName": "L5-2-1",
+            "VideoFileName_1": "",
+            "VideoFileName_2": ""
+        },
+        {
+            "scenename": "L5-2",
+            "content_index": 2,
+			"contenttitle": "台灣常用能源",
+            "contenttext": "非再生能源\n\n2.核燃料：\n透過高速的中子去撞擊鈾-235原子核，引發核分裂，在此過程中即會釋放出大量的核能，之後轉換成熱能加熱核電廠鍋爐中的水，產生水蒸氣，即可推動渦輪機的扇葉來達到轉換成電能的效果。",
+            "ImageFileName_1": "L5-2-3_O",
+            "ImageFileName_2": "L5-2-4_O",
+			"AudioFileName": "L5-2-2",
+            "VideoFileName_1": "",
+            "VideoFileName_2": ""
+        },
+        {
+            "scenename": "L5-2",
+            "content_index": 3,
+			"contenttitle": "台灣常用能源",
+            "contenttext": "再生能源\n\n1.水力：\n(1)能量形成：利用高處的水往低處流動，將水的重力位能轉成電能。\n(2)由於台灣河川短且陡，難積蓄大量的水資源。\n2.風力：\n(1)利用空氣流動轉換成電能，是台灣的優勢，然而缺點是，風力機造價不斐，成本很高。",
+            "ImageFileName_1": "L5-2-5_O",
+            "ImageFileName_2": "L5-2-6_O",
+			"AudioFileName": "L5-2-3",
+            "VideoFileName_1": "",
+            "VideoFileName_2": ""
+        },
+        {
+            "scenename": "L5-2",
+            "content_index": 4,
+			"contenttitle": "台灣常用能源",
+            "contenttext": "再生能源\n\n3.太陽能：\n(1)轉為熱能：太陽能熱水器、太陽爐。\n(2)轉為電能：太陽能光電板。\n4.生質能：\n利用生物所產生的有機物質，將其轉成能源，即叫生質能，以下為例子：\n(1)植物的生質能：透過植物特有的光合作用原理製造出葡萄糖，將養份儲存在植物體內，最終將其作為燃料。\n(2)畜牧排泄物轉為沼氣。",
+            "ImageFileName_1": "L5-2-7_O",
+            "ImageFileName_2": "L5-2-8_O",
+			"AudioFileName": "L5-2-4",
+            "VideoFileName_1": "",
+            "VideoFileName_2": ""
+        },
+         {
+            "scenename": "L5-2",
+            "content_index": 5,
+			"contenttitle": "台灣常用能源",
+            "contenttext": "再生能源\n\n5.其他再生能源：\n(1)地熱：透過地底熱能轉化為電能。\n(2)洋流：利用海流轉化為電能。\n(3)潮汐：利用潮差的重力位能轉化成電能。\n\n【說明結束，請按Menu鍵】",
+            "ImageFileName_1": "L5-2-9_O",
+            "ImageFileName_2": "L5-2-10_O",
+			"AudioFileName": "L5-2-5",
+            "VideoFileName_1": "",
+            "VideoFileName_2": ""
+        },
+         {
+            "scenename": "L5-3",
+            "content_index": 1,
+			"contenttitle": "積極開發再生能源",
+            "contenttext": "台灣近年積極開發的再生能源\n\n1.離岸風力發電\n地理環境優勢，早期多設在苗栗及彰化內陸，但由於土地狹小，且扇葉易造成低頻噪音，因此轉往離岸發展，有更穩定的風速且效果又更好。\n2.太陽能發電\n台灣位於亞熱帶地區，一年四季陽光充足，因此近幾年可發現使用率逐年提升。\n",
+            "ImageFileName_1": "L5-3-1_O",
+            "ImageFileName_2": "L5-3-2_O",
+			"AudioFileName": "L5-3-1",
+            "VideoFileName_1": "",
+            "VideoFileName_2": ""
+        },
+        {
+            "scenename": "L5-3",
+            "content_index": 2,
+			"contenttitle": "積極開發再生能源",
+            "contenttext": "3.洋流發電\n台灣四面環海，其中黑潮更是提供穩定又豐沛的流速，發電原理主要是透過流動的海水驅動海流扇葉，產生電能。\n\n【說明結束，請按Menu鍵】",
+            "ImageFileName_1": "L5-3-3_O",
+            "ImageFileName_2": "L5-3-4_O",
+			"AudioFileName": "L5-3-2",
+            "VideoFileName_1": "",
+            "VideoFileName_2": ""
+        },
+         {
+            "scenename": "L5-4",
+            "content_index": 1,
+			"contenttitle": "探討能源利用",
+            "contenttext": "能源就是一把雙面刃，平時帶給我們許多便利，但也對地球帶來莫大的影響。\n例如：\n1.化石燃料會造成二氧化碳，加劇全球暖化。\n2.燃燒煤炭，影響空氣品質。\n3.水力、太陽能等再生能源，因建造設備的過程，也會造成環境汙染，也有待考量。",
+            "ImageFileName_1": "L5-4-1_O",
+            "ImageFileName_2": "L5-4-2_O",
+			"AudioFileName": "L5-4-1",
+            "VideoFileName_1": "",
+            "VideoFileName_2": ""
+        }
+		,
+        {
+            "scenename": "L5-4",
+            "content_index": 2,
+			"contenttitle": "探討能源利用",
+            "contenttext": "目前科學家們也努力研發一些替代方案，例如：\n1.氫燃料電池：其產物幾乎只有水，對於環境較友善，可被用於汽車上。\n2.將太陽能運用於交通工具上，但用太陽能板轉化為電能的效率不高，因此還處實驗階段。\n\n【說明結束，請按Menu鍵】",
+            "ImageFileName_1": "L5-4-1_O",
+            "ImageFileName_2": "L5-4-2_O",
+			"AudioFileName": "L5-4-2",
+            "VideoFileName_1": "",
+            "VideoFileName_2": ""
+        }
+    ]
+}

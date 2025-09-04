@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f5e17120ec947bda29edf453f728ca, type: 3}
+  m_Name: ShowNextButonWhenInStep
+  m_EditorClassIdentifier: 
+  Note: "\u7576\u63CD\u6B65\u9A5F <x> \u6642, \u986F\u793A\"\u4E0B\u4E00\u6B65\"\u7684\u6309\u9215"

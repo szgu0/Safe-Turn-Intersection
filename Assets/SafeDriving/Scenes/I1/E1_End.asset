@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83130f7613d2f4645ad773ce6e359f6b, type: 3}
+  m_Name: E1_End
+  m_EditorClassIdentifier: 
+  TextSets:
+  - ID: introduction
+    PCText: "\u53EF\u4EE5\u91CD\u65B0\u9078\u64C7\u4E0D\u540C\u9053\u8DEF\uFF0C\u91CD\u8986\u6A21\u64EC\u53CA\u89C0\u5BDF\u3002\u6216\u7D50\u675F\u672C\u55AE\u5143\u3002"
+    PCClip: {fileID: 0}
+    VRText: 
+    VRClip: {fileID: 8300000, guid: e9be8b6a8f7596d4d904a76263c19f6d, type: 3}
+  - ID: concept-explain
+    PCText: "\u5B9A\u901F\u904E\u5F4E\u6700\u4F73\u8DEF\u7DDA\u70BA\u5207\u7DDA\u8DEF\u5F91\uFF0C\u4EE5\u6E1B\u5C11\u5411\u5FC3\u529B\u9700\u6C42\uFF0C\u7DAD\u6301\u901F\u5EA6\uFF0C\u78BA\u4FDD\u7A69\u5B9A\u8207\u5B89\u5168\u3002"
+    PCClip: {fileID: 0}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: step-9
+    PCText: "\u53EF\u4EE5\u91CD\u65B0\u9078\u64C7\u4E0D\u540C\u9053\u8DEF\uFF0C\u91CD\u8986\u6A21\u64EC\u53CA\u89C0\u5BDF\u3002\u6216\u7D50\u675F\u672C\u55AE\u5143\u3002"
+    PCClip: {fileID: 0}
+    VRText: 
+    VRClip: {fileID: 8300000, guid: e9be8b6a8f7596d4d904a76263c19f6d, type: 3}
+  - ID: step-10
+    PCText: "\u5EF6\u4F38\u63A2\u7D22\u5B8C\u6210\u56C9!\u73FE\u5728\uFF0C\u4F60\u53EF\u4EE5\u9078\u64C7\u518D\u8A66\u4E00\u6B21\uFF0C\u6216\u662F\u524D\u5F80\u5176\u4ED6\u55AE\u5143\u5594!"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 8300000, guid: c2791596c13ef074dbd35e54898e6bd7, type: 3}
+  - ID: step-9-hint
+    PCText: "\u8ACB\u9EDE\u9078\u91CD\u65B0\u6A21\u64EC\u6216\u7D50\u675F\u672C\u55AE\u5143\r\n"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 8300000, guid: 733d7d2c2d00cb7408d241b184f74e7b, type: 3}
+  - ID: step-10-hint
+    PCText: "\u8ACB\u9EDE\u9078\u9078\u55AE\u9375\u6309\u9215\r"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 8300000, guid: 72607d81d1c1dba4cbc6bb56081b2713, type: 3}
+  - ID: B-1
+    PCText: "\u91CD\u65B0\u6A21\u64EC"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: B-2
+    PCText: "\u7D50\u675F\u672C\u55AE\u5143"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
+  - ID: B-3
+    PCText: "\u56DE\u5230\u5927\u5EF3"
+    PCClip: {fileID: 8300000, guid: 844026d7c509d4c119eb89da9fc5ee0d, type: 3}
+    VRText: 
+    VRClip: {fileID: 0}
