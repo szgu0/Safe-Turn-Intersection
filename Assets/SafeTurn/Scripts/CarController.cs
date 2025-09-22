@@ -106,6 +106,7 @@ public class CarController : MonoBehaviour
     {
         steeringAngle = Angle;
         targetZ = Angle / 5f;
+        if (Angle <= 15f) targetZ = -6f;
     }
 
     public void StartMoving()
