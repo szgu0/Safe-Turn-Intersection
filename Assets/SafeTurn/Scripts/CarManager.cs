@@ -43,6 +43,8 @@ public class CarManager : MonoBehaviour
                 carCarController.PreDrawPath();
                 carCarController.TogglePath(isShowPath);
                 carCarController.TogglePath(isShowTri);
+                carCarController.frontWheelLine.enabled = isShowPath;
+                carCarController.rearWheelLine.enabled = isShowPath;
                 wheelBaseText.text = carCarController.config.wheelBase + " m";
                 break;
             case "van":
@@ -52,6 +54,8 @@ public class CarManager : MonoBehaviour
                 vanCarController.PreDrawPath();
                 vanCarController.TogglePath(isShowPath);
                 vanCarController.TogglePath(isShowTri);
+                vanCarController.frontWheelLine.enabled = isShowPath;
+                vanCarController.rearWheelLine.enabled = isShowPath;
                 wheelBaseText.text = vanCarController.config.wheelBase + " m";
                 break;
             case "bus":
@@ -61,6 +65,8 @@ public class CarManager : MonoBehaviour
                 busCarController.PreDrawPath();
                 busCarController.TogglePath(isShowPath);
                 busCarController.TogglePath(isShowTri);
+                busCarController.frontWheelLine.enabled = isShowPath;
+                busCarController.rearWheelLine.enabled = isShowPath;
                 wheelBaseText.text = busCarController.config.wheelBase + " m";
                 break;
             default:

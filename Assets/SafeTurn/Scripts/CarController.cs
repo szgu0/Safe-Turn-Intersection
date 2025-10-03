@@ -224,7 +224,7 @@ public class CarController : MonoBehaviour
         if (lr != null)
         {
             lr.positionCount = 0;
-            lr.widthMultiplier = 0.4f;
+            lr.widthMultiplier = 0.1f;
 
             Shader shader = Shader.Find("Universal Render Pipeline/Unlit");
             if (shader == null) shader = Shader.Find("Sprites/Default");
