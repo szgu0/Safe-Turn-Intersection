@@ -20,6 +20,8 @@ public class CarController : MonoBehaviour
     private List<Vector3> rearPoints = new List<Vector3>();
     private List<Vector3> trianglePoints = new List<Vector3>();
 
+    private float lineHeight = 0.31f; // 車線高
+
     public float steeringAngle = 30f; // 固定向右轉角度（度數）
 
     private bool StartToTargetZ = false;
@@ -164,8 +166,8 @@ public class CarController : MonoBehaviour
 
         Vector3 PreDraw_O_Position = transform.position;
 
-        trianglePoints.Add(PreDraw_O_Position+ new Vector3(0, 0.35f, 0));
-        trianglePoints.Add(PreDraw_O_Position+ new Vector3(0, 0.35f, -config.wheelBase));
+        trianglePoints.Add(PreDraw_O_Position+ new Vector3(0, lineHeight, 0));
+        trianglePoints.Add(PreDraw_O_Position+ new Vector3(0, lineHeight, -config.wheelBase));
         trianglePoints.Add(PreDraw_O_Position+ new Vector3(config.wheelBase/Mathf.Tan(steeringAngle * Mathf.Deg2Rad), 0.35f, -config.wheelBase));
         triangleLine.positionCount = trianglePoints.Count;
         triangleLine.SetPositions(trianglePoints.ToArray());
@@ -186,8 +188,8 @@ public class CarController : MonoBehaviour
             yr = config.wheelBase / Mathf.Tan(theta) * (1 - Mathf.Cos(angularVelocity * simTime));
 
             // 計算前後輪位置
-            Vector3 frontPos = PreDraw_O_Position + new Vector3(yf, 0.35f, xf);
-            Vector3 rearPos = PreDraw_O_Position + new Vector3(yr, 0.35f, xr);
+            Vector3 frontPos = PreDraw_O_Position + new Vector3(yf, lineHeight, xf);
+            Vector3 rearPos = PreDraw_O_Position + new Vector3(yr, lineHeight, xr);
 
             frontPoints.Add(frontPos);
             rearPoints.Add(rearPos);
