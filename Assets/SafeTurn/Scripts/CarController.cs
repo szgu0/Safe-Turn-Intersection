@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CarController : MonoBehaviour
 {
+    public CarManager carManager;
     [Header("車輛設定")]
     public CarConfig config;
     public Transform frontWheel; // 前輪參考點
@@ -27,6 +28,9 @@ public class CarController : MonoBehaviour
     private bool StartToTargetZ = false;
     private bool reachedTargetZ = false;
     private bool coroutineFinished = false;
+
+    private Coroutine moveCoroutine;
+    private bool hasCrashed = false;
 
     [Header("車輪")]
     public Transform[] wheelObjects;
@@ -94,7 +98,7 @@ public class CarController : MonoBehaviour
         {
             reachedTargetZ = true;
             O_Position = transform.position;
-            StartCoroutine(MoveCar());
+            moveCoroutine = StartCoroutine(MoveCar());
 
         }
         else if (coroutineFinished)
@@ -121,7 +125,7 @@ public class CarController : MonoBehaviour
                 }
             }
         }
-        else if(StartToTargetZ)
+        else if (StartToTargetZ)
         {
             yRotate = Mathf.Lerp(yRotate, 0, 10 * Time.deltaTime);
             for (int i = 0; i < wheelObjects.Length; i++)
@@ -137,6 +141,25 @@ public class CarController : MonoBehaviour
                     wheelObjects[i].transform.localRotation = Quaternion.Euler(xRotate, 0, 90);
                 }
             }
+        }
+    }
+    
+    private void OnTriggerEnter(Collider other)
+    {
+        // Debug.Log(other.name);
+        // 確認撞到玩家，且未重複觸發
+        if (!hasCrashed && other.CompareTag("Player") && StartToTargetZ)
+        {
+            hasCrashed = true;
+
+            // 停止車輛協程
+            if (moveCoroutine != null)
+            {
+                StopCoroutine(moveCoroutine);
+                moveCoroutine = null;
+            }
+
+            carManager.CarCrashs();
         }
     }
 

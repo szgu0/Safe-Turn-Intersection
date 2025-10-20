@@ -10,6 +10,7 @@ public class CarManager : MonoBehaviour
 {
     public CarController carCarController, vanCarController, busCarController;
     public TextMeshProUGUI wheelBaseText;
+    public GameObject CrashUI;
 
     public string nowCar;
     public bool isShowPath, isShowTri;
@@ -19,6 +20,11 @@ public class CarManager : MonoBehaviour
         busCarController.PreDrawPath();
         busCarController.TogglePath(isShowPath);
         Debug.Log("bus");
+    }
+
+    public void CarCrashs()
+    {
+        CrashUI.SetActive(true);
     }
 
     public void CarsSetSteeringAngle(Toggle toggle)

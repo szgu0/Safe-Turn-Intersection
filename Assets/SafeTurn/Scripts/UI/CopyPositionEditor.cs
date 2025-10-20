@@ -15,7 +15,8 @@ public class CopyPositionEditor : MonoBehaviour
         if (sourceObject != null && targetObject != null)
         {
             targetObject.position = sourceObject.position;
-            targetObject.rotation = sourceObject.rotation;
+            // targetObject.rotation = sourceObject.rotation;
+            targetObject.rotation = Quaternion.Euler(0f, sourceObject.rotation.y, sourceObject.rotation.z);;
         }
     }
 }
