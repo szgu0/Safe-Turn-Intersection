@@ -27,7 +27,7 @@ public class CarController : MonoBehaviour
 
     private bool StartToTargetZ = false;
     private bool reachedTargetZ = false;
-    private bool coroutineFinished = false;
+    public bool coroutineFinished = false;
 
     private Coroutine moveCoroutine;
     private bool hasCrashed = false;
@@ -40,6 +40,8 @@ public class CarController : MonoBehaviour
     public int[] fixedYIndices;
     private float xRotate = 0;
     private float yRotate = 0;
+
+    private bool CarStop = false;
 
     private IEnumerator MoveCar()
     {
@@ -94,6 +96,8 @@ public class CarController : MonoBehaviour
 
     void Update()
     {
+        if (CarStop) return;
+
         if (StartToTargetZ && !reachedTargetZ)
         {
             reachedTargetZ = true;
@@ -143,7 +147,7 @@ public class CarController : MonoBehaviour
             }
         }
     }
-    
+
     private void OnTriggerEnter(Collider other)
     {
         // Debug.Log(other.name);
@@ -161,6 +165,11 @@ public class CarController : MonoBehaviour
 
             carManager.CarCrashs();
         }
+    }
+    
+    public void CarStopHard()
+    {
+        CarStop = true;
     }
 
     public void SetSteeringAngle(float Angle)

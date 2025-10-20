@@ -119,5 +119,10 @@ public class CarManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
+    public void GoToDrive()
+    {
+        SceneManager.LoadScene(1);
+    }
+
 
 }
