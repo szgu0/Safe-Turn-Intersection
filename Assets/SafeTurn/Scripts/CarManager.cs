@@ -11,20 +11,65 @@ public class CarManager : MonoBehaviour
     public CarController carCarController, vanCarController, busCarController;
     public TextMeshProUGUI wheelBaseText;
     public GameObject CrashUI;
+    public GameObject MainUI;
 
     public string nowCar;
     public bool isShowPath, isShowTri;
+
+    [Header("環境光設定")]
+    public Color targetColor = new Color(0.4f, 0.1f, 0.1f); // 偏紅的顏色
+    public float targetIntensity = 0.4f;  // 變暗程度（越小越暗）
+    public float transitionTime = 2.0f;   // 變化所需秒數
+    public Light sceneLight;
+
+    private Color originalColor;
+    private float originalIntensity;
+    private Coroutine currentRoutine;
 
     void Start()
     {
         busCarController.PreDrawPath();
         busCarController.TogglePath(isShowPath);
         Debug.Log("bus");
+
+        originalColor = RenderSettings.ambientLight;
+        originalIntensity = RenderSettings.ambientIntensity;
     }
 
     public void CarCrashs()
     {
         CrashUI.SetActive(true);
+        MainUI.SetActive(false);
+        carCarController.gameObject.SetActive(false);
+        vanCarController.gameObject.SetActive(false);
+        busCarController.gameObject.SetActive(false);
+        if (currentRoutine != null)
+            StopCoroutine(currentRoutine);
+        currentRoutine = StartCoroutine(ChangeAmbientLight(targetColor, targetIntensity));
+    }
+
+    IEnumerator ChangeAmbientLight(Color targetCol, float targetInt)
+    {
+        Color startColor = RenderSettings.ambientLight;
+        Color scenestartColor = sceneLight.color;
+        float startIntensity = RenderSettings.ambientIntensity;
+
+        float timer = 0f;
+        while (timer < transitionTime)
+        {
+            timer += Time.deltaTime;
+            float t = timer / transitionTime;
+
+            RenderSettings.ambientLight = Color.Lerp(startColor, targetCol, t);
+            RenderSettings.ambientIntensity = Mathf.Lerp(startIntensity, targetInt, t);
+
+            sceneLight.color = Color.Lerp(scenestartColor, targetCol, t);
+
+            yield return null;
+        }
+
+        RenderSettings.ambientLight = targetCol;
+        RenderSettings.ambientIntensity = targetInt;
     }
 
     public void CarsSetSteeringAngle(Toggle toggle)
