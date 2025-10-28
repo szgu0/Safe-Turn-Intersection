@@ -175,7 +175,7 @@ public class CarController : MonoBehaviour
     public void SetSteeringAngle(float Angle)
     {
         if (config.carName == "car") Angle -= 5f;
-        if (config.carName == "van") Angle += 5f;
+        if (config.carName == "bus") Angle += 3f;
         steeringAngle = Angle;
         // 角度改變時要重畫路徑
         PreDrawPath();
