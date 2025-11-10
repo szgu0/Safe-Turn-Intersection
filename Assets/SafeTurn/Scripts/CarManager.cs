@@ -22,9 +22,14 @@ public class CarManager : MonoBehaviour
     public float transitionTime = 2.0f;   // 變化所需秒數
     public Light sceneLight;
 
+    public GameObject RedLight;
+
     private Color originalColor;
     private float originalIntensity;
     private Coroutine currentRoutine;
+
+    public AudioSource audioSource;
+    public AudioClip ambulanceClip;
 
     void Start()
     {
@@ -34,6 +39,8 @@ public class CarManager : MonoBehaviour
 
         originalColor = RenderSettings.ambientLight;
         originalIntensity = RenderSettings.ambientIntensity;
+
+        RedLight.SetActive(false);
     }
 
     public void CarCrashs()
@@ -43,6 +50,9 @@ public class CarManager : MonoBehaviour
         carCarController.gameObject.SetActive(false);
         vanCarController.gameObject.SetActive(false);
         busCarController.gameObject.SetActive(false);
+
+        audioSource.PlayOneShot(ambulanceClip);
+
         if (currentRoutine != null)
             StopCoroutine(currentRoutine);
         currentRoutine = StartCoroutine(ChangeAmbientLight(targetColor, targetIntensity));
@@ -70,6 +80,7 @@ public class CarManager : MonoBehaviour
 
         RenderSettings.ambientLight = targetCol;
         RenderSettings.ambientIntensity = targetInt;
+        RedLight.SetActive(true);
     }
 
     public void CarsSetSteeringAngle(Toggle toggle)
