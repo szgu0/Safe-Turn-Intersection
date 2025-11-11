@@ -21,7 +21,7 @@ public class CarController : MonoBehaviour
     private List<Vector3> rearPoints = new List<Vector3>();
     private List<Vector3> trianglePoints = new List<Vector3>();
 
-    private float lineHeight = 0.31f; // 車線高
+    private float lineHeight = 0.05f; // 車線高
 
     public float steeringAngle = 30f; // 固定向右轉角度（度數）
 

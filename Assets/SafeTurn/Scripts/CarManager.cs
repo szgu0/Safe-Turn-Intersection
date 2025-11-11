@@ -51,7 +51,8 @@ public class CarManager : MonoBehaviour
         vanCarController.gameObject.SetActive(false);
         busCarController.gameObject.SetActive(false);
 
-        audioSource.PlayOneShot(ambulanceClip);
+        // audioSource.PlayOneShot(ambulanceClip);
+        AudioPlayerControl.BS_Player.PlayOneShot(ambulanceClip);
 
         if (currentRoutine != null)
             StopCoroutine(currentRoutine);
